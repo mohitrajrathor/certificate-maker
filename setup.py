@@ -5,9 +5,6 @@ def pakages_lister():
         pakages = f.read().splitlines()
     return pakages
 
-
-
-
 setup(
     name='certificate-formator',
     version='0.0.1',
