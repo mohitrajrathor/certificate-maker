@@ -1,9 +1,19 @@
 from setuptools import setup, find_packages
+import subprocess
+
+BATCH_FILE_PATH = "./batch/installscript.bat"
+EXECUTABLE_PATH = "./additionals/wkhtmltopdf.exe"
+
 
 def pakages_lister():
     with open("requirements.txt") as f:
         pakages = f.read().splitlines()
     return pakages
+
+# for this app we need wkhtmltopdf to be already installed in the system
+# to install it we need to run a batch scripts as follows
+
+
 
 setup(
     name='certificate-formator',
@@ -20,3 +30,5 @@ setup(
         "Programming Language :: Python :: 3.11",
     ]
 )
+
+
