@@ -1,0 +1,99 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+  } */
+  
+  .certificate-container {
+    background-color: #ffffff;
+    width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+
+
+
+  .organization-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .certificate-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .body-text {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .participant-name {
+    font-weight: bold;
+  }
+  
+  .signatures-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 20px 50px;
+
+  }
+  
+  .signatures-container div {
+    text-align: center;
+  }
+  
+  .signatures-container div p:first-child {
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+
+
+  /* giving font to the text  */
+  .gilda-display-regular {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .kelly-slab-regular {
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  /* color classes */
+  .blue {
+    color: #0003ff;
+}
+
+
+/* adding background */
+
+.banner {
+  background-image: url("./assets/border.png"); 
+    background-size: cover;
+    background-position: center; 
+    /* padding: 50px;  */
+    width: 650px;
+}
